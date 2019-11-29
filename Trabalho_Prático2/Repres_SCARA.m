@@ -28,5 +28,6 @@ bot.fkine([0.2 0.2 0.2 0.2])
 bot.plot([0.2 0 0.2 0.2])
 
 % Jacobiano 
-q = [0 0 0 0];
+q = [0.2 0.2 10 0.5];
 J0 = bot.jacob0(q);
+
